@@ -489,7 +489,7 @@
             key-positions = <12 13>;
             bindings = <&kp LG(TAB)>;
         };
-        combo_altbackspace {
+        combo_altbackspace2 {
             timeout-ms = <25>;
             key-positions = <26 27>;
 	    layers = <3>;
