@@ -138,7 +138,7 @@
         };
         combo_laltgui {
             timeout-ms = <25>;
-            key-positions = <2 12>;
+            key-positions = <2 12 3 13>;
             layers = <0 1 2 3 4 5>;
             bindings = <&kp LA(LGUI)>;
         };
