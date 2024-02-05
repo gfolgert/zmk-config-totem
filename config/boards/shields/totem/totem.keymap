@@ -381,13 +381,13 @@
         };
         combo_lbrc {
             timeout-ms = <25>;
-            key-positions = <19 26>;
+            key-positions = <19 27>;
             layers = <0 1 2 4>;
             bindings = <&kp LBRC>;
         };
         combo_rbrc {
             timeout-ms = <25>;
-            key-positions = <19 27>;
+            key-positions = <19 28>;
             layers = <0 1 2 4>;
             bindings = <&kp RBRC>;
         };
