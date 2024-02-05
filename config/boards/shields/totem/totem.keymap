@@ -149,7 +149,7 @@
             timeout-ms = <25>;
             key-positions = <6 16>;
             layers = <0 1 2 3 4 5>;
-            bindings = <&kp RGUI>;
+            bindings = <&kp LGUI>;
         };
         combo_ralt {
             timeout-ms = <25>;
