@@ -228,7 +228,7 @@
         };
         combo_printscreen {
             timeout-ms = <25>;
-            key-positions = <19 16>;
+            key-positions = <7 19 27>;
  	    layers = <0>;
             bindings = <&kp PSCRN>;
         };
