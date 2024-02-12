@@ -179,19 +179,19 @@
             timeout-ms = <25>;
             key-positions = <8 18 7 17>;
             layers = <0 1 2 3 4 5>;
-            bindings = <&kp C(LALT)>;
+            bindings = <&kp C(RALT)>;
         };
         combo_rctrgui {
             timeout-ms = <25>;
             key-positions = <8 18 6 16>;
             layers = <0 1 2 3 4 5>;
-            bindings = <&kp LC(LGUI)>;
+            bindings = <&kp RC(RGUI)>;
         };
         combo_raltrgui {
             timeout-ms = <25>;
             key-positions = <7 17 6 16>;
             layers = <0 1 2 3 4 5>;
-            bindings = <&kp LA(LGUI)>;
+            bindings = <&kp RA(RGUI)>;
         };
 
 
