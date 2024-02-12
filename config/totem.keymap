@@ -222,7 +222,7 @@
         };
         combo_numlock {
             timeout-ms = <25>;
-            key-positions = <19 29>;
+            key-positions = <6 8 19>;
  	    layers = <4>;
             bindings = <&kp KP_NUM>;
         };
