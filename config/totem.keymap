@@ -457,7 +457,7 @@
         combo_minus_left {
             timeout-ms = <25>;
             key-positions = <12 13>;
-            layers = <0 1 2 4>;
+            layers = <0>;
             bindings = <&kp MINUS>;
         };        
         
@@ -522,12 +522,6 @@
             key-positions = <11 13>;
             layers = <0 1 2 4>;
             bindings = <&kp LA(BSPC)>;
-        };
-        combo_leftguitab {
-            timeout-ms = <25>;
-            key-positions = <12 13>;
-            layers = <0 1 2 4>;
-            bindings = <&kp LG(TAB)>;
         };
         combo_altbackspace2 {
             timeout-ms = <25>;
