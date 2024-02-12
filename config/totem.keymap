@@ -234,7 +234,7 @@
         };
         combo_scrolllock {
             timeout-ms = <25>;
-            key-positions = <19 17>;
+            key-positions = <15 26>;
  	    layers = <4>;
             bindings = <&kp SLCK>;
         };
