@@ -542,9 +542,15 @@
 	    layers = <3>;
             bindings = <&kp LA(DEL)>;
         };
-        combo_leftl {
+        combo_l {
             timeout-ms = <25>;
             key-positions = <13 24>;
+            layers = <0 1 2 4>;
+            bindings = <&kp L>;
+        };
+        combo_l2 {
+            timeout-ms = <25>;
+            key-positions = <3 14>;
             layers = <0 1 2 4>;
             bindings = <&kp L>;
         };
