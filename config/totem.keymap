@@ -465,7 +465,7 @@
         //Misc
         combo_gfemail {
             timeout-ms = <25>;
-            key-positions = <6 13 17>;
+            key-positions = <6 13 18>;
             layers = <0>;
             bindings = <&gfemail>;
         };
