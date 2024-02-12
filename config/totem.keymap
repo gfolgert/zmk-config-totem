@@ -505,12 +505,6 @@
             layers = <0 1 2 3 4>;
             bindings = <&kp LC(UP)>;
         };
-        combo_altbackspace {
-            timeout-ms = <25>;
-            key-positions = <11 12>;
-            layers = <0 1 2 4>;
-            bindings = <&kp LA(BSPC)>;
-        };
         combo_guik {
             timeout-ms = <25>;
             key-positions = <11 24>;
