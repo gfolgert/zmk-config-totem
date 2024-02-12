@@ -566,6 +566,18 @@
             layers = <0 1 2 4>;
             bindings = <&kp L>;
         };
+        combo_bootloaderleft {
+            timeout-ms = <25>;
+            key-positions = <10 1 23 3 25>;
+            layers = <0>;
+            bindings = <&bootloader>;
+        };
+        combo_bootloaderright {
+            timeout-ms = <25>;
+            key-positions = <26 6 28 8 19>;
+            layers = <0>;
+            bindings = <&bootloader>;
+        };
 
     };
 };
