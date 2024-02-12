@@ -466,55 +466,55 @@
         combo_gfemail {
             timeout-ms = <25>;
             key-positions = <6 13 17>;
-            layers = <0 1 2 4>;
+            layers = <0>;
             bindings = <&gfemail>;
         };
         combo_handle {
             timeout-ms = <25>;
             key-positions = <13 6 17>;
-            layers = <0 1 2 4>;
+            layers = <0>;
             bindings = <&gfhandle>;
         };
         combo_phonenum {
             timeout-ms = <25>;
             key-positions = <13 6 8>;
-            layers = <0 1 2 4>;
+            layers = <0>;
             bindings = <&phonenum>;
         };
         combo_name {
             timeout-ms = <25>;
             key-positions = <13 27 17>;
-            layers = <0 1 2 4>;
+            layers = <0>;
             bindings = <&gfname>;
         };
         combo_screenshot_file {
             timeout-ms = <25>;
             key-positions = <2 24>;
-            layers = <0 1 2 3 4>;
+            layers = <0>;
             bindings = <&kp LG(LS(N4))>;
         };
         combo_screenshot_clipboard {
             timeout-ms = <25>;
             key-positions = <11 2 24>;
-            layers = <0 1 2 3 4>;
+            layers = <0>;
             bindings = <&kp LG(LS(LC(N4)))>;
         };
         combo_controlup {
             timeout-ms = <25>;
             key-positions = <11 2 13>;
-            layers = <0 1 2 3 4>;
+            layers = <0>;
             bindings = <&kp LC(UP)>;
         };
         combo_guik {
             timeout-ms = <25>;
             key-positions = <11 24>;
-            layers = <0 1 2 4>;
+            layers = <0>;
             bindings = <&kp LG(K)>;
         };
         combo_alt_backspace_left {
             timeout-ms = <25>;
             key-positions = <11 13>;
-            layers = <0 1 2 4>;
+            layers = <0>;
             bindings = <&kp LA(BSPC)>;
         };
         combo_altbackspace2 {
@@ -532,13 +532,13 @@
         combo_l {
             timeout-ms = <25>;
             key-positions = <13 24>;
-            layers = <0 1 2 4>;
+            layers = <0>;
             bindings = <&kp L>;
         };
         combo_l2 {
             timeout-ms = <25>;
             key-positions = <3 14>;
-            layers = <0 1 2 4>;
+            layers = <0>;
             bindings = <&kp L>;
         };
         combo_bootloaderleft {
