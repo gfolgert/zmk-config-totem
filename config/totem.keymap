@@ -214,12 +214,6 @@
 	    layers = <0 1 2 4>;
             bindings = <&kp ESC>;
         };
-        combo_caps {
-            timeout-ms = <25>;
-            key-positions = <13 34>;
-	    layers = <0 1 2 4>;
-            bindings = <&kp CAPS>;
-        };
         combo_ins {
             timeout-ms = <25>;
             key-positions = <13 19>;
