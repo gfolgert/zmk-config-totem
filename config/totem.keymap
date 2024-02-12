@@ -459,32 +459,7 @@
             key-positions = <12 13>;
             layers = <0 1 2 4>;
             bindings = <&kp MINUS>;
-        };
-        combo_arrowup_left {
-            timeout-ms = <25>;
-            key-positions = <10 2>;
-            layers = <0 1 2 4>;
-            bindings = <&kp UP>;
-        };
-        combo_arrowleft_left {
-            timeout-ms = <25>;
-            key-positions = <10 11>;
-            layers = <0 1 2 4>;
-            bindings = <&kp LEFT>;
-        };
-        combo_arrowdown_left {
-            timeout-ms = <25>;
-            key-positions = <10 12>;
-            layers = <0 1 2 4>;
-            bindings = <&kp DOWN>;
-        };
-        combo_arrowright_left {
-            timeout-ms = <25>;
-            key-positions = <10 13>;
-            layers = <0 1 2 4>;
-            bindings = <&kp RIGHT>;
-        };
-        
+        };        
         
 
         //Misc
