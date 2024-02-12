@@ -240,8 +240,8 @@
         };
         combo_pause {
             timeout-ms = <25>;
-            key-positions = <19 16>;
- 	    layers = <2>;
+            key-positions = <16 17 19>;
+ 	    layers = <0>;
             bindings = <&kp PAUSE_BREAK>;
         };
      
