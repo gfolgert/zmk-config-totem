@@ -217,25 +217,25 @@
         combo_ins {
             timeout-ms = <25>;
             key-positions = <16 7 18 19>;
-	    layers = <3>;
+	    layers = <0>;
             bindings = <&kp INS>;
         };
         combo_numlock {
             timeout-ms = <25>;
             key-positions = <6 8 19>;
- 	    layers = <4>;
+ 	    layers = <0>;
             bindings = <&kp KP_NUM>;
         };
         combo_printscreen {
             timeout-ms = <25>;
             key-positions = <19 16>;
- 	    layers = <4>;
+ 	    layers = <0>;
             bindings = <&kp PSCRN>;
         };
         combo_scrolllock {
             timeout-ms = <25>;
             key-positions = <15 26>;
- 	    layers = <4>;
+ 	    layers = <0>;
             bindings = <&kp SLCK>;
         };
         combo_pause {
