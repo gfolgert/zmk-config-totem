@@ -417,7 +417,7 @@
         };
 
         
-        //Right Hand
+        //Left Hand
         combo_enter_left {
             timeout-ms = <25>;
             key-positions = <11 12>;
