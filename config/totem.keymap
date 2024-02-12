@@ -76,7 +76,7 @@
         combo_guiz2 {
             timeout-ms = <25>;
             key-positions = <11 12>;
-            layers = <2>;
+            layers = <1>;
             bindings = <&kp LG(Z)>;
         };
         combo_j{
@@ -112,7 +112,7 @@
         combo_guiv2 {
             timeout-ms = <25>;
             key-positions = <12 13>;
-            layers = <2>;
+            layers = <1>;
             bindings = <&kp LG(V)>;
         };
 
