@@ -599,7 +599,7 @@
                 &none  &kp W  &kp F  &kp P  &kp B                           &kp J  &kp L  &kp U      &kp Y    &none
                 &kp A  &kp R  &kp S  &kp T  &kp G                           &kp M  &kp N  &kp E      &kp I    &kp O
          &none  &kp Z  &kp X  &kp C  &kp D  &kp V                           &kp K  &kp H  &kp COMMA  &kp DOT  &kp Q  &none
-                                     &none  &mo 1  &kp LSHFT  &ltc 2 SPACE  &lta 3 BSPC  &none
+                                     &none  &mo 1  &kp LSHFT  &ltc 3 SPACE  &lta 2 BSPC  &none
             >;
         };
         
