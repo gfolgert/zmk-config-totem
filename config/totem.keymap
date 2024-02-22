@@ -677,18 +677,18 @@
 
         main_layer {
             bindings = <
-                &none  &kp W  &kp F  &kp P  &none                          &none  &kp L  &kp U      &kp Y    &none
+                &none  &kp W  &kp F  &kp P  &kp B                          &kp J  &kp L  &kp U      &kp Y    &none
                 &kp A  &kp R  &kp S  &kp T  &kp G                          &kp M  &kp N  &kp E      &kp I    &kp O
-         &none  &none  &kp X  &kp C  &kp D  &kp B                          &kp K  &kp H  &kp COMMA  &kp DOT  &none  &none
+         &none  &kp Z  &kp X  &kp C  &kp D  &kp V                          &kp K  &kp H  &kp COMMA  &kp DOT  &kp ENTER  &none
                                      &none  &mo 1  &kp LSHFT  &ltc 2 BSPC  &lta 3 SPACE  &none
             >;
         };
         
         numpad_layer {
             bindings = <
-                &none        &kp LG(W)  &kp LG(F)  &kp LG(P)  &none                      &none  &kp N7  &kp N8  &kp N9  &none 
+                &none        &kp LG(W)  &kp LG(F)  &kp LG(P)  &kp LG(B)                  &none  &kp N7  &kp N8  &kp N9  &none 
                 &lt 7 LG(A)  &kp LG(R)  &kp LG(S)  &kp LG(T)  &kp LG(G)                  &none  &kp N4  &kp N5  &kp N6  &kp DOT
-         &none  &none        &kp LG(X)  &kp LG(C)  &kp LG(D)  &kp LG(B)                  &none  &kp N1  &kp N2  &kp N3  &none    &none
+         &none  &kp LG(Z)    &kp LG(X)  &kp LG(C)  &kp LG(D)  &kp LG(V)                  &none  &kp N1  &kp N2  &kp N3  &none    &none
                                                  &none      &trans     &trans  &trans  &lt 4 N0    &none
             >;
         };
@@ -713,9 +713,9 @@
         
         fnkeys_layer {
             bindings = <
-                &none  &none  &none  &none  &none                 &none    &kp F7  &kp F8  &kp F9  &none
-                &none  &none  &none  &none  &none                 &kp F12  &kp F4  &kp F5  &kp F6  &kp F10
-         &none  &none  &none  &none  &none  &none                 &kp F11  &kp F1  &kp F2  &kp F3  &none   &none
+                &none  &none  &none  &none  &none                 &kp F12  &kp F7  &kp F8  &kp F9  &none
+                &none  &none  &none  &none  &none                 &kp F11  &kp F4  &kp F5  &kp F6  &none
+         &none  &none  &none  &none  &none  &none                 &kp F10  &kp F1  &kp F2  &kp F3  &none   &none
                                      &none  &none  &trans  &none  &none  &none
             >;
         };
