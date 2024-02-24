@@ -36,6 +36,20 @@
     combos {
         compatible = "zmk,combos";
 
+        //Modifiers – Q
+        combo_topq {
+            timeout-ms = <25>;
+            key-positions = <1 2>;
+            layers = <0>;
+            bindings = <&kp Q>;
+        };
+        combo_guiq {
+            timeout-ms = <25>;
+            key-positions = <1 2>;
+            layers = <1>;
+            bindings = <&kp LG(Q)>;
+        };
+
         //Modifiers – Left Hand
         combo_lgui {
             timeout-ms = <25>;
