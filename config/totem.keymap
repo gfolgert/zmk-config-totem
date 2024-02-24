@@ -36,7 +36,7 @@
     combos {
         compatible = "zmk,combos";
 
-        //Modifiers – Q
+        //Modifiers – Corner Keys
         combo_topq {
             timeout-ms = <25>;
             key-positions = <1 2>;
@@ -48,6 +48,24 @@
             key-positions = <1 2>;
             layers = <1>;
             bindings = <&kp LG(Q)>;
+        };        
+	combo_z {
+            timeout-ms = <25>;
+            key-positions = <22 23>;
+            layers = <0>;
+            bindings = <&kp Z>;
+        };
+        combo_guiz {
+            timeout-ms = <25>;
+            key-positions = <22 23>;
+            layers = <1>;
+            bindings = <&kp LG(Z)>;
+        };
+        combo_guiz2 {
+            timeout-ms = <25>;
+            key-positions = <11 12>;
+            layers = <1>;
+            bindings = <&kp LG(Z)>;
         };
 
         //Modifiers – Left Hand
