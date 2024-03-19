@@ -149,7 +149,7 @@
         };
         combo_tab_right {
             timeout-ms = <25>;
-            key-positions = <17 29>;
+            key-positions = <27 28>;
 	    layers = <0 1 2 4>;
             bindings = <&kp TAB>;
         };
@@ -198,12 +198,6 @@
 	    layers = <0 1 2 4>;
             bindings = <&kp SQT>;
         };
-        combo_doublequote {
-            timeout-ms = <25>;
-            key-positions = <16 7>;
-	    layers = <0 1 2 4>;
-            bindings = <&kp DQT>;
-        };
         combo_semicolon {
             timeout-ms = <25>;
             key-positions = <28 29>;
@@ -228,12 +222,6 @@
 	    layers = <0 1 2 4>;
             bindings = <&kp PLUS>;
         };
-        combo_underscore {
-            timeout-ms = <50>;
-            key-positions = <27 28>;
-	    layers = <0 1 2 4>;
-            bindings = <&kp UNDER>;
-        };
         combo_hash {
             timeout-ms = <25>;
             key-positions = <27 29>;
@@ -252,15 +240,9 @@
 	    layers = <0 1 2 4>;
             bindings = <&kp GRAVE>;
         };
-        combo_tilde {
-            timeout-ms = <25>;
-            key-positions = <16 17 8>;
-            layers = <0 1 2 4>;
-            bindings = <&kp TILDE>;
-        };
         combo_slash {
             timeout-ms = <25>;
-            key-positions = <7 27>;
+            key-positions = <7 16>;
             layers = <0 1 2 4>;
             bindings = <&kp SLASH>;
         };
@@ -272,7 +254,7 @@
         };
         combo_pipe {
             timeout-ms = <25>;
-            key-positions = <6 28>;
+            key-positions = <7 27>;
             layers = <0 1 2 4>;
             bindings = <&kp PIPE>;
         };
