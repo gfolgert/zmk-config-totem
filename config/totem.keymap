@@ -406,7 +406,7 @@
         };
         combo_phonenum {
             timeout-ms = <25>;
-            key-positions = <13 27 29>;
+            key-positions = <13 6 8>;
             layers = <0>;
             bindings = <&phonenum>;
         };
