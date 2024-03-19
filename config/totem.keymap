@@ -159,49 +159,19 @@
 	    layers = <1 2 4>;
             bindings = <&kp ESC>;
         };
-        combo_ins {
-            timeout-ms = <25>;
-            key-positions = <16 7>;
-	    layers = <2>;
-            bindings = <&kp INS>;
-        };
-        combo_numlock {
-            timeout-ms = <25>;
-            key-positions = <6 8 19>;
- 	    layers = <2>;
-            bindings = <&kp KP_NUM>;
-        };
-        combo_printscreen {
-            timeout-ms = <25>;
-            key-positions = <7 19 27>;
- 	    layers = <2>;
-            bindings = <&kp PSCRN>;
-        };
-        combo_scrolllock {
-            timeout-ms = <25>;
-            key-positions = <15 19>;
- 	    layers = <2>;
-            bindings = <&kp SLCK>;
-        };
-        combo_pause {
-            timeout-ms = <25>;
-            key-positions = <16 17 19>;
- 	    layers = <2>;
-            bindings = <&kp PAUSE_BREAK>;
-        };
      
    
         //Symbols
         combo_quote {
             timeout-ms = <25>;
-            key-positions = <7 18>;
-	    layers = <1 2 4>;
+            key-positions = <18 28>;
+	    layers = <0 1 2 4>;
             bindings = <&kp SQT>;
         };
         combo_semicolon {
             timeout-ms = <25>;
             key-positions = <28 29>;
-	    layers = <1 2 4>;
+	    layers = <0 1 2 4>;
             bindings = <&kp SEMI>;
         };
         combo_minus {
@@ -209,6 +179,12 @@
             key-positions = <16 17>;
 	    layers = <1 2 4>;
             bindings = <&kp MINUS>;
+        };
+        combo_plus {
+            timeout-ms = <25>;
+            key-positions = <16 18>;
+	    layers = <1 2 4>;
+            bindings = <&kp PLUS>;
         };
         combo_equals {
             timeout-ms = <25>;
@@ -230,44 +206,44 @@
         };
         combo_grave {
             timeout-ms = <25>;
-            key-positions = <16 28>;
+            key-positions = <6 28>;
 	    layers = <1 2 4>;
             bindings = <&kp GRAVE>;
         };
         combo_slash {
             timeout-ms = <25>;
-            key-positions = <7 16>;
+            key-positions = <17 27>;
             layers = <1 2 4>;
             bindings = <&kp SLASH>;
         };
         combo_backslash {
             timeout-ms = <25>;
-            key-positions = <7 27>;
+            key-positions = <16 28>;
             layers = <1 2 4>;
             bindings = <&kp BACKSLASH>;
         };
         combo_caret {
             timeout-ms = <25>;
-            key-positions = <16 7 18>;
+            key-positions = <7 16>;
             layers = <1 2 4>;
             bindings = <&kp CARET>;
         }; 
         combo_percentsign {
             timeout-ms = <25>;
             key-positions = <17 29>;
-            layers = <1 2 4>;
+            layers = <0 1 2 4>;
             bindings = <&kp PERCENT>;
         };
         combo_questionmark {
             timeout-ms = <25>;
             key-positions = <27 29>;
-            layers = <1 2 4>;
+            layers = <0 1 2 4>;
             bindings = <&kp QUESTION>;
         };
         combo_exclamationmark {
             timeout-ms = <25>;
             key-positions = <16 29>;
-            layers = <1 2 4>;
+            layers = <0 1 2 4>;
             bindings = <&kp EXCLAMATION>;
         };
         combo_dollarsign {
@@ -284,7 +260,7 @@
         };
         combo_ampersand {
             timeout-ms = <25>;
-            key-positions = <16 18>;
+            key-positions = <8 16>;
             layers = <1 2 4>;
             bindings = <&kp AMPERSAND>;
         };
