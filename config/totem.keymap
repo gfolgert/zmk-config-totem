@@ -272,15 +272,9 @@
         };
         combo_exclamationmark {
             timeout-ms = <25>;
-            key-positions = <6 18>;
-            layers = <0 1 2 4>;
-            bindings = <&kp EXCLAMATION>;
-        };
-        combo_questionmark {
-            timeout-ms = <25>;
             key-positions = <16 8>;
             layers = <0 1 2 4>;
-            bindings = <&kp QUESTION>;
+            bindings = <&kp EXCLAMATION>;
         };
         combo_dollarsign {
             timeout-ms = <25>;
@@ -290,7 +284,7 @@
         };
         combo_atsign {
             timeout-ms = <25>;
-            key-positions = <6 17 18>;
+            key-positions = <6 18>;
             layers = <0 1 2 4>;
             bindings = <&kp AT_SIGN>;
         };
