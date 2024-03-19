@@ -149,7 +149,7 @@
         };
         combo_tab_right {
             timeout-ms = <25>;
-            key-positions = <28 29>;
+            key-positions = <27 28>;
 	    layers = <0 1 2 4>;
             bindings = <&kp TAB>;
         };
@@ -200,7 +200,7 @@
         };
         combo_semicolon {
             timeout-ms = <25>;
-            key-positions = <17 29>;
+            key-positions = <28 29>;
 	    layers = <0 1 2 4>;
             bindings = <&kp SEMI>;
         };
