@@ -144,7 +144,7 @@
         combo_enter_right {
             timeout-ms = <25>;
             key-positions = <27 28>;
-	    layers = <1 2 4>;
+	    layers = <0 1 2 4>;
             bindings = <&kp ENTER>;
         };
         combo_tab_right {
