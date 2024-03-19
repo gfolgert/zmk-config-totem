@@ -143,13 +143,13 @@
         //Control Keys – Right Hand
         combo_enter_right {
             timeout-ms = <25>;
-            key-positions = <17 18>;
+            key-positions = <27 28>;
 	    layers = <1 2 4>;
             bindings = <&kp ENTER>;
         };
         combo_tab_right {
             timeout-ms = <25>;
-            key-positions = <27 28>;
+            key-positions = <17 18>;
 	    layers = <1 2 4>;
             bindings = <&kp TAB>;
         };
@@ -370,25 +370,25 @@
         //Misc
         combo_gfemail {
             timeout-ms = <25>;
-            key-positions = <6 18>;
+            key-positions = <13 6 18>;
             layers = <1>;
             bindings = <&gfemail>;
         };
         combo_handle {
             timeout-ms = <25>;
-            key-positions = <6 17>;
+            key-positions = <13 6 17>;
             layers = <1>;
             bindings = <&gfhandle>;
         };
         combo_phonenum {
             timeout-ms = <25>;
-            key-positions = <6 8>;
+            key-positions = <13 6 8>;
             layers = <1>;
             bindings = <&phonenum>;
         };
         combo_name {
             timeout-ms = <25>;
-            key-positions = <27 17>;
+            key-positions = <13 27 17>;
             layers = <1>;
             bindings = <&gfname>;
         };
