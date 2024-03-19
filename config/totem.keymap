@@ -194,7 +194,7 @@
         //Symbols
         combo_quote {
             timeout-ms = <25>;
-            key-positions = <7 18>;
+            key-positions = <18 28>;
 	    layers = <0 1 2 4>;
             bindings = <&kp SQT>;
         };
@@ -236,7 +236,7 @@
         };
         combo_grave {
             timeout-ms = <25>;
-            key-positions = <6 17>;
+            key-positions = <16 28>;
 	    layers = <0 1 2 4>;
             bindings = <&kp GRAVE>;
         };
@@ -248,7 +248,7 @@
         };
         combo_backslash {
             timeout-ms = <25>;
-            key-positions = <16 28>;
+            key-positions = <6 17>;
             layers = <0 1 2 4>;
             bindings = <&kp BACKSLASH>;
         };
