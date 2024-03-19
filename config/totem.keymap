@@ -260,7 +260,7 @@
         };
         combo_slash {
             timeout-ms = <25>;
-            key-positions = <7 17>;
+            key-positions = <7 27>;
             layers = <0 1 2 4>;
             bindings = <&kp SLASH>;
         };
