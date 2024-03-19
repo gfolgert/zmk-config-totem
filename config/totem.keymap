@@ -353,7 +353,7 @@
         };
         combo_backspace_left {
             timeout-ms = <25>;
-            key-positions = <22 23 24>;
+            key-positions = <22 23>;
             layers = <0 1 2 4>;
             bindings = <&kp BSPC>;
         };
