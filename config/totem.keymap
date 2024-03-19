@@ -149,7 +149,7 @@
         };
         combo_tab_right {
             timeout-ms = <25>;
-            key-positions = <18 19>;
+            key-positions = <18 28>;
 	    layers = <0 1 2 4>;
             bindings = <&kp TAB>;
         };
@@ -266,7 +266,7 @@
         };
         combo_slash {
             timeout-ms = <25>;
-            key-positions = <27 17>;
+            key-positions = <7 17>;
             layers = <0 1 2 4>;
             bindings = <&kp SLASH>;
         };
@@ -278,7 +278,7 @@
         };
         combo_pipe {
             timeout-ms = <25>;
-            key-positions = <27 7>;
+            key-positions = <6 28>;
             layers = <0 1 2 4>;
             bindings = <&kp PIPE>;
         };
@@ -649,9 +649,9 @@
 
         arrows_layer {
             bindings = <
-                &none  &none  &none  &none  &none                 &none      &kp HOME      &kp UP         &kp END    &none 
-                &none  &none  &none  &none  &none                 &kp PG_UP  &kp LEFT      &kp DOWN       &kp RIGHT  &kp DEL
-         &none  &none  &none  &none  &none  &none                 &kp PG_DN  &kp LA(LEFT)  &kp LA(RIGHT)  &kp CAPS   &none   &alttab  
+                &none  &none  &none  &none  &none                 &kp PG_UP  &kp HOME      &kp UP         &kp END    &none 
+                &none  &none  &none  &none  &none                 &kp PG_DN  &kp LEFT      &kp DOWN       &kp RIGHT  &kp DEL
+         &none  &none  &none  &none  &none  &none                 &kp SPACE  &kp LA(LEFT)  &kp LA(RIGHT)  &kp CAPS   &none   &alttab  
                                      &none  &none  &trans  &mo 5  &none  &none
             >;
         };
