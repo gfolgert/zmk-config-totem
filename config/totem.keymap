@@ -180,6 +180,12 @@
 	    layers = <1 2 4>;
             bindings = <&kp MINUS>;
         };
+        combo_altminus {
+            timeout-ms = <25>;
+            key-positions = <18 o19>;
+	    layers = <1 2 4>;
+            bindings = <&kp LA(MINUS)>;
+        };
         combo_plus {
             timeout-ms = <25>;
             key-positions = <16 18>;
