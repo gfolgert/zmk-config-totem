@@ -170,12 +170,6 @@
 	    layers = <1 2 4>;
             bindings = <&kp PLUS>;
         };
-        combo_equals {
-            timeout-ms = <25>;
-            key-positions = <6 7>;
-	    layers = <1 2 4>;
-            bindings = <&kp EQUAL>;
-        };
         combo_hash {
             timeout-ms = <25>;
             key-positions = <6 7 8>;
