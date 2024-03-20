@@ -225,6 +225,24 @@
             layers = <0 1 2 4>;
             bindings = <&kp CARET>;
         }; 
+        combo_asterisk {
+            timeout-ms = <25>;
+            key-positions = <6 8 17>;
+            layers = <0 1 2 4>;
+            bindings = <&kp ASTERISK>;
+        }; 
+        combo_ampersand {
+            timeout-ms = <25>;
+            key-positions = <16 17 18>;
+            layers = <0 1 2 4>;
+            bindings = <&kp AMPERSAND>;
+        }; 
+        combo_hash {
+            timeout-ms = <25>;
+            key-positions = <6 7 8>;
+            layers = <0 1 2 4>;
+            bindings = <&kp HASH>;
+        }; 
         combo_percentsign {
             timeout-ms = <25>;
             key-positions = <18 28>;
