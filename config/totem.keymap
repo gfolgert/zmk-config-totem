@@ -354,7 +354,7 @@
         };
         combo_mute {
             timeout-ms = <25>;
-            key-positions = <25 26>;
+            key-positions = <26 27>;
             layers = <2>;
             bindings = <&kp C_MUTE>;
         };
