@@ -570,7 +570,29 @@
     };
 };
 
+/ {
+    behaviors {
+	    lta: layer_tap_release_alttab {
+	        compatible = "zmk,behavior-hold-tap";
+	        label = "layer_tap_release_alttab";
+	        #binding-cells = <2>;
+	        flavor = "tap-preferred";
+	        tapping-term-ms = <200>;
+	        bindings = <&mo_at>, <&kp>;
+	    };
 
+	    ltc: layer_tap_release_ctrltab {
+	        compatible = "zmk,behavior-hold-tap";
+	        label = "layer_tap_release_ctrltab";
+	        #binding-cells = <2>;
+	        flavor = "tap-preferred";
+	        tapping-term-ms = <200>;
+	        bindings = <&mo_ct>, <&kp>;
+	    };
+
+
+    };
+};
 
 / {
     keymap {
