@@ -182,7 +182,7 @@
         };
         combo_altminus {
             timeout-ms = <25>;
-            key-positions = <18 o19>;
+            key-positions = <18 19>;
 	    layers = <1 2 4>;
             bindings = <&kp LA(MINUS)>;
         };
