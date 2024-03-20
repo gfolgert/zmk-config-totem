@@ -363,34 +363,28 @@
         //Misc
         combo_gfemail {
             timeout-ms = <25>;
-            key-positions = <13 6 18>;
-            layers = <1 2>;
+            key-positions = <13 6 17 18>;
+            layers = <0 1 2>;
             bindings = <&gfemail>;
         };
         combo_handle {
             timeout-ms = <25>;
             key-positions = <13 6 17>;
-            layers = <1 2>;
+            layers = <0 1 2>;
             bindings = <&gfhandle>;
         };
         combo_phonenum {
             timeout-ms = <25>;
             key-positions = <13 6 8>;
-            layers = <1 2>;
+            layers = <0 1 2>;
             bindings = <&phonenum>;
         };
         combo_name {
             timeout-ms = <25>;
             key-positions = <13 27 17>;
-            layers = <1 2>;
+            layers = <0 1 2>;
             bindings = <&gfname>;
         };
-        combo_thumbsup {
-            timeout-ms = <25>;
-            key-positions = <18 27>;
-            layers = <1 2>;
-            bindings = <&thumbsup>;
-	};
         combo_altbackspace2 {
             timeout-ms = <25>;
             key-positions = <27 28>;
