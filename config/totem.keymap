@@ -206,14 +206,14 @@
         };
         combo_hash {
             timeout-ms = <25>;
-            key-positions = <6 8>;
-	    layers = <1 2 4>;
+            key-positions = <6 7 8>;
+	    layers = <0 1 2 4>;
             bindings = <&kp HASH>;
         };
         combo_asterisk {
             timeout-ms = <25>;
-            key-positions = <6 17>;
-            layers = <1 2 4>;
+            key-positions = <6 17 8>;
+            layers = <0 1 2 4>;
             bindings = <&kp ASTERISK>;
         };
         combo_grave {
@@ -236,8 +236,8 @@
         };
         combo_caret {
             timeout-ms = <25>;
-            key-positions = <7 16>;
-            layers = <1 2 4>;
+            key-positions = <7 16 18>;
+            layers = <0 1 2 4>;
             bindings = <&kp CARET>;
         }; 
         combo_percentsign {
@@ -260,14 +260,14 @@
         };
         combo_dollarsign {
             timeout-ms = <25>;
-            key-positions = <6 29>;
-            layers = <1 2 4>;
+            key-positions = <7 18 27>;
+            layers = <0 1 2 4>;
             bindings = <&kp DOLLAR>;
         };
         combo_atsign {
             timeout-ms = <25>;
-            key-positions = <6 18>;
-            layers = <1 2 4>;
+            key-positions = <6 17 18>;
+            layers = <0 1 2 4>;
             bindings = <&kp AT_SIGN>;
         };
         combo_ampersand {
