@@ -138,27 +138,6 @@
             layers = <0 1 2 3 4 5>;
             bindings = <&kp RA(RGUI)>;
         };
-
-
-        //Control Keys – Right Hand
-        combo_enter_right {
-            timeout-ms = <25>;
-            key-positions = <27 28>;
-	    layers = <0 1 2 4>;
-            bindings = <&kp ENTER>;
-        };
-        combo_tab_right {
-            timeout-ms = <25>;
-            key-positions = <17 18>;
-	    layers = <1 2 4>;
-            bindings = <&kp TAB>;
-        };
-        combo_escape_right {
-            timeout-ms = <25>;
-            key-positions = <7 8>;
-	    layers = <1 2 4>;
-            bindings = <&kp ESC>;
-        };
      
    
         //Symbols
