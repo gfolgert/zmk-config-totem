@@ -100,7 +100,6 @@
             bindings = <&kp LA(LGUI)>;
         };
 
-
         //Modifiers – Right Hand
         combo_rgui {
             timeout-ms = <25>;
