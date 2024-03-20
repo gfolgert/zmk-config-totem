@@ -303,7 +303,19 @@
             key-positions = <12 13>;
             layers = <1>;
             bindings = <&kp MINUS>;
-        };       
+        };      
+        combo_pgup {
+            timeout-ms = <25>;
+            key-positions = <5 6>;
+            layers = <1 2 4>;
+            bindings = <&kp PG_UP>;
+        };
+        combo_pgdn {
+            timeout-ms = <25>;
+            key-positions = <15 16>;
+            layers = <1 2 4>;
+            bindings = <&kp PG_DN>;
+        };  
 
         //Media
         combo_next {
@@ -586,9 +598,9 @@
 
         arrows_layer {
             bindings = <
-                &none  &none  &none  &none  &none                 &kp PG_UP  &kp HOME      &kp UP         &kp END    &none 
-                &none  &none  &none  &none  &none                 &kp PG_DN  &kp LEFT      &kp DOWN       &kp RIGHT  &kp DEL
-         &none  &none  &none  &none  &none  &none                 &kp SPACE  &kp LA(LEFT)  &kp LA(RIGHT)  &kp CAPS   &none   &alttab  
+                &none  &none  &none  &none  &none                 &kp C_AC_SCROLL_UP    &kp HOME      &kp UP         &kp END    &none 
+                &none  &none  &none  &none  &none                 &kp C_AC_SCROLL_DOWN  &kp LEFT      &kp DOWN       &kp RIGHT  &kp DEL
+         &none  &none  &none  &none  &none  &none                 &kp SPACE             &kp LA(LEFT)  &kp LA(RIGHT)  &kp CAPS   &none   &alttab  
                                      &none  &none  &trans  &mo 5  &none  &none
             >;
         };
