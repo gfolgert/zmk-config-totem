@@ -360,19 +360,19 @@
         //Media
         combo_next {
             timeout-ms = <25>;
-            key-positions = <5 6>;
+            key-positions = <7 8>;
             layers = <2>;
             bindings = <&kp C_NEXT>;
         };
         combo_previous {
             timeout-ms = <25>;
-            key-positions = <15 16>;
+            key-positions = <17 18>;
             layers = <2>;
             bindings = <&kp C_PREV>;
         };
         combo_mute {
             timeout-ms = <25>;
-            key-positions = <26 27>;
+            key-positions = <28 29>;
             layers = <2>;
             bindings = <&kp C_MUTE>;
         };
