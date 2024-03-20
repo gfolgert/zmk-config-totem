@@ -174,22 +174,16 @@
 	    layers = <0 1 2 4>;
             bindings = <&kp SEMI>;
         };
-        combo_minus {
-            timeout-ms = <25>;
-            key-positions = <16 17 18>;
-	    layers = <0 1 2 4>;
-            bindings = <&kp MINUS>;
-        };
         combo_altminus {
             timeout-ms = <25>;
-            key-positions = <16 18 19>;
-	    layers = <0 1 2 4>;
+            key-positions = <16 17>;
+	    layers = <1 2 4>;
             bindings = <&kp LA(MINUS)>;
         };
         combo_altshiftminus {
             timeout-ms = <25>;
-            key-positions = <17 18 19>;
-	    layers = <0 1 2 4>;
+            key-positions = <16 17 18>;
+	    layers = <1 2 4>;
             bindings = <&kp LA(LS(MINUS))>;
         };
         combo_plus {
@@ -248,13 +242,13 @@
         };
         combo_questionmark {
             timeout-ms = <25>;
-            key-positions = <27 29>;
+            key-positions = <27 28>;
             layers = <0 1 2 4>;
             bindings = <&kp QUESTION>;
         };
         combo_exclamationmark {
             timeout-ms = <25>;
-            key-positions = <16 29>;
+            key-positions = <27 29>;
             layers = <0 1 2 4>;
             bindings = <&kp EXCLAMATION>;
         };
@@ -630,9 +624,9 @@
         
         media_layer {
             bindings = <
-                &none  &none  &none  &none  &none                 &kp C_VOL_UP  &none  &none  &none  &none 
-                &none  &none  &none  &none  &none                 &kp C_VOL_DN  &none  &none  &none  &none 
-         &none  &none  &none  &none  &none  &none                 &kp C_PP      &none  &none  &none  &none   &none
+                &none  &none  &none  &none  &none                 &kp C_VOL_UP  &kp EQUAL   &kp ESC  &kp ASTERISK  &none 
+                &none  &none  &none  &none  &none                 &kp C_VOL_DN  &kp MINUS   &kp ENT  &none         &none 
+         &none  &none  &none  &none  &none  &none                 &kp C_PP      &kp S(TAB)  &kp TAB  &kp HASH      &none   &none
                                      &none  &none  &trans  &none  &mo 5         &none
             >;
         };
