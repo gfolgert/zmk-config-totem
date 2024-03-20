@@ -171,6 +171,12 @@
 	    layers = <0 1 2 4>;
             bindings = <&kp SQT>;
         };
+        combo_quote2 {
+            timeout-ms = <25>;
+            key-positions = <7 8>;
+	    layers = <0 1 2 4>;
+            bindings = <&kp SQT>;
+        };
         combo_semicolon {
             timeout-ms = <25>;
             key-positions = <17 29>;
