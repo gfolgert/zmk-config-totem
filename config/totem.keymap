@@ -224,12 +224,6 @@
             layers = <0 1 2 4>;
             bindings = <&kp AT_SIGN>;
         };
-        combo_ampersand {
-            timeout-ms = <25>;
-            key-positions = <8 16>;
-            layers = <1 2 4>;
-            bindings = <&kp AMPERSAND>;
-        };
         combo_lpar {
             timeout-ms = <25>;
             key-positions = <19 16>;
@@ -584,9 +578,9 @@
         
         media_layer {
             bindings = <
-                &none  &none  &none  &none  &none                 &kp C_VOL_UP  &kp EQUAL    &kp ESC  &kp ASTERISK  &none 
-                &none  &none  &none  &none  &none                 &kp C_VOL_DN  &kp MINUS    &kp ENT  &none         &none 
-         &none  &none  &none  &none  &none  &none                 &kp C_PP      &kp LS(TAB)  &kp TAB  &kp HASH      &none   &none
+                &none  &none  &none  &none  &none                 &kp C_VOL_UP  &kp EQUAL    &kp ESC  &kp ASTERISK   &none 
+                &none  &none  &none  &none  &none                 &kp C_VOL_DN  &kp MINUS    &kp ENT  &kp AMPERSAND  &none 
+         &none  &none  &none  &none  &none  &none                 &kp C_PP      &kp LS(TAB)  &kp TAB  &kp HASH       &none   &none
                                      &none  &none  &trans  &none  &mo 5         &none
             >;
         };
