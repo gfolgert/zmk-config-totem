@@ -432,12 +432,6 @@
             layers = <0>;
             bindings = <&gfname>;
         };
-        combo_name {
-            timeout-ms = <25>;
-            key-positions = <13 27 17>;
-            layers = <0>;
-            bindings = <&gfname>;
-        };
         combo_thumbsup {
             timeout-ms = <25>;
             key-positions = <8 27>;
