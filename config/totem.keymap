@@ -176,15 +176,21 @@
         };
         combo_minus {
             timeout-ms = <25>;
-            key-positions = <16 17>;
-	    layers = <1 2 4>;
+            key-positions = <16 17 18>;
+	    layers = <0 1 2 4>;
             bindings = <&kp MINUS>;
         };
         combo_altminus {
             timeout-ms = <25>;
-            key-positions = <18 19>;
-	    layers = <1 2 4>;
+            key-positions = <16 18 19>;
+	    layers = <0 1 2 4>;
             bindings = <&kp LA(MINUS)>;
+        };
+        combo_altshiftminus {
+            timeout-ms = <25>;
+            key-positions = <17 18 19>;
+	    layers = <0 1 2 4>;
+            bindings = <&kp LA(LS(MINUS))>;
         };
         combo_plus {
             timeout-ms = <25>;
@@ -218,14 +224,14 @@
         };
         combo_slash {
             timeout-ms = <25>;
-            key-positions = <17 27>;
-            layers = <1 2 4>;
+            key-positions = <17 18 27>;
+            layers = <0 1 2 4>;
             bindings = <&kp SLASH>;
         };
         combo_backslash {
             timeout-ms = <25>;
-            key-positions = <16 28>;
-            layers = <1 2 4>;
+            key-positions = <16 28 29>;
+            layers = <0 1 2 4>;
             bindings = <&kp BACKSLASH>;
         };
         combo_caret {
@@ -312,7 +318,7 @@
         combo_enter_left {
             timeout-ms = <25>;
             key-positions = <22 23 24>;
-            layers = <1>;
+            layers = <0 1>;
             bindings = <&kp ENTER>;
         };
         combo_tab_left {
@@ -324,7 +330,7 @@
         combo_escape_left {
             timeout-ms = <25>;
             key-positions = <1 2 3>;
-            layers = <1 2 4>;
+            layers = <0 1 2 4>;
             bindings = <&kp ESC>;
         };
         combo_space {
