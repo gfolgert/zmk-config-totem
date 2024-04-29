@@ -503,6 +503,190 @@
             bindings = <&kp L>;
         };
 
+        //Shifted letters
+        combo_upperA {
+            timeout-ms = <25>;
+            key-positions = <34 10>;
+            layers = <0>;
+            bindings = <&kp LS(A)>;
+        };
+
+        combo_upperB {
+            timeout-ms = <25>;
+            key-positions = <34 4>;
+            layers = <0>;
+            bindings = <&kp LS(B)>;
+        };
+
+        combo_upperC {
+            timeout-ms = <25>;
+            key-positions = <34 23>;
+            layers = <0>;
+            bindings = <&kp LS(C)>;
+        };
+
+        combo_upperD {
+            timeout-ms = <25>;
+            key-positions = <34 24>;
+            layers = <0>;
+            bindings = <&kp LS(D)>;
+        };
+
+        combo_upperE {
+            timeout-ms = <25>;
+            key-positions = <34 17>;
+            layers = <0>;
+            bindings = <&kp LS(E)>;
+        };
+
+        combo_upperF {
+            timeout-ms = <25>;
+            key-positions = <34 2>;
+            layers = <0>;
+            bindings = <&kp LS(F)>;
+        };
+
+        combo_upperG {
+            timeout-ms = <25>;
+            key-positions = <34 14>;
+            layers = <0>;
+            bindings = <&kp LS(G)>;
+        };
+
+        combo_upperH {
+            timeout-ms = <25>;
+            key-positions = <34 27>;
+            layers = <0>;
+            bindings = <&kp LS(H)>;
+        };
+
+        combo_upperI {
+            timeout-ms = <25>;
+            key-positions = <34 18>;
+            layers = <0>;
+            bindings = <&kp LS(I)>;
+        };
+
+        combo_upperJ {
+            timeout-ms = <25>;
+            key-positions = <34 5>;
+            layers = <0>;
+            bindings = <&kp LS(J)>;
+        };
+
+        combo_upperK {
+            timeout-ms = <25>;
+            key-positions = <34 26>;
+            layers = <0>;
+            bindings = <&kp LS(K)>;
+        };
+
+        combo_upperL {
+            timeout-ms = <25>;
+            key-positions = <34 6>;
+            layers = <0>;
+            bindings = <&kp LS(L)>;
+        };
+
+        combo_upperM {
+            timeout-ms = <25>;
+            key-positions = <34 15>;
+            layers = <0>;
+            bindings = <&kp LS(M)>;
+        };
+
+        combo_upperN {
+            timeout-ms = <25>;
+            key-positions = <34 16>;
+            layers = <0>;
+            bindings = <&kp LS(N)>;
+        };
+
+        combo_upperO {
+            timeout-ms = <25>;
+            key-positions = <34 19>;
+            layers = <0>;
+            bindings = <&kp LS(O)>;
+        };
+
+        combo_upperP {
+            timeout-ms = <25>;
+            key-positions = <34 3>;
+            layers = <0>;
+            bindings = <&kp LS(P)>;
+        };
+
+        combo_upperQ {
+            timeout-ms = <25>;
+            key-positions = <34 1 2>;
+            layers = <0>;
+            bindings = <&kp LS(Q)>;
+        };
+
+        combo_upperR {
+            timeout-ms = <25>;
+            key-positions = <34 11>;
+            layers = <0>;
+            bindings = <&kp LS(R)>;
+        };
+
+        combo_upperS {
+            timeout-ms = <25>;
+            key-positions = <34 12>;
+            layers = <0>;
+            bindings = <&kp LS(S)>;
+        };
+
+        combo_upperT {
+            timeout-ms = <25>;
+            key-positions = <34 13>;
+            layers = <0>;
+            bindings = <&kp LS(T)>;
+        };
+
+        combo_upperU {
+            timeout-ms = <25>;
+            key-positions = <34 7>;
+            layers = <0>;
+            bindings = <&kp LS(U)>;
+        };
+
+        combo_upperV {
+            timeout-ms = <25>;
+            key-positions = <34 25>;
+            layers = <0>;
+            bindings = <&kp LS(V)>;
+        };
+
+        combo_upperW {
+            timeout-ms = <25>;
+            key-positions = <34 1>;
+            layers = <0>;
+            bindings = <&kp LS(W)>;
+        };
+
+        combo_upperX {
+            timeout-ms = <25>;
+            key-positions = <34 23 24>;
+            layers = <0>;
+            bindings = <&kp LS(X)>;
+        };
+
+        combo_upperY {
+            timeout-ms = <25>;
+            key-positions = <34 8>;
+            layers = <0>;
+            bindings = <&kp LS(Y)>;
+        };
+
+        combo_upperZ {
+            timeout-ms = <25>;
+            key-positions = <34 22>;
+            layers = <0>;
+            bindings = <&kp LS(Z)>;
+        };
+
+
     };
 };
 
