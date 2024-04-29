@@ -686,6 +686,20 @@
             bindings = <&kp LS(Z)>;
         };
 
+        //Doubles Combos
+        combo_repeatkeyL {
+            timeout-ms = <25>;
+            key-positions = <13 34>;
+            layers = <0>;
+            bindings = <&key_repeat>;
+        };
+
+        combo_repeatkeyR {
+            timeout-ms = <25>;
+            key-positions = <16 35>;
+            layers = <0>;
+            bindings = <&key_repeat>;
+        };
 
     };
 };
