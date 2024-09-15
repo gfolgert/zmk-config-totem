@@ -44,32 +44,6 @@
     combos {
         compatible = "zmk,combos";
 
-        //Modifiers – Corner Keys
-        combo_topq {
-            timeout-ms = <25>;
-            key-positions = <1 2>;
-            layers = <0>;
-            bindings = <&kp Q>;
-        };
-        combo_guiq {
-            timeout-ms = <25>;
-            key-positions = <1 2>;
-            layers = <1>;
-            bindings = <&kp LG(Q)>;
-        };        
-	combo_x {
-            timeout-ms = <25>;
-            key-positions = <23 24>;
-            layers = <0>;
-            bindings = <&kp X>;
-        };
-        combo_guix {
-            timeout-ms = <25>;
-            key-positions = <23 24>;
-            layers = <1>;
-            bindings = <&kp LG(X)>;
-        };
-
         //Modifiers – Left Hand
         combo_lgui {
             timeout-ms = <25>;
@@ -628,7 +602,7 @@
 
         combo_upperQ {
             timeout-ms = <25>;
-            key-positions = <34 1 2>;
+            key-positions = <34 0>;
             layers = <0>;
             bindings = <&kp LS(Q)>;
         };
@@ -677,7 +651,7 @@
 
         combo_upperX {
             timeout-ms = <25>;
-            key-positions = <34 23 24>;
+            key-positions = <34 22>;
             layers = <0>;
             bindings = <&kp LS(X)>;
         };
@@ -694,35 +668,6 @@
             key-positions = <34 22>;
             layers = <0>;
             bindings = <&kp LS(Z)>;
-        };
-
-        //Doubles Combos
-        combo_repeatkeyL {
-            timeout-ms = <25>;
-            key-positions = <13 33>;
-            layers = <0>;
-            bindings = <&key_repeat>;
-        };
-
-        combo_repeatkeyL2 {
-            timeout-ms = <25>;
-            key-positions = <13 34>;
-            layers = <0>;
-            bindings = <&key_repeat>;
-        };
-
-        combo_repeatkeyR {
-            timeout-ms = <25>;
-            key-positions = <16 35>;
-            layers = <0>;
-            bindings = <&key_repeat>;
-        };
-
-        combo_repeatkeyR2 {
-            timeout-ms = <25>;
-            key-positions = <16 36>;
-            layers = <0>;
-            bindings = <&key_repeat>;
         };
 
     };
