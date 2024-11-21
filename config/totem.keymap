@@ -310,33 +310,27 @@
         //Parentheses
         combo_lpar {
             timeout-ms = <25>;
-            key-positions = <19 6>;
+            key-positions = <19 27>;
             layers = <0 1 2 4>;
             bindings = <&kp LPAR>;
         };
         combo_rpar {
             timeout-ms = <25>;
-            key-positions = <19 7>;
+            key-positions = <19 28>;
             layers = <0 1 2 4>;
             bindings = <&kp RPAR>;
         };
         combo_lbkt {
             timeout-ms = <25>;
-            key-positions = <19 27>;
+            key-positions = <19 6>;
             layers = <0 1 2 4>;
             bindings = <&kp LBKT>;
         };
         combo_rbkt {
             timeout-ms = <25>;
-            key-positions = <19 28>;
+            key-positions = <19 7>;
             layers = <0 1 2 4>;
             bindings = <&kp RBKT>;
-        };
-        combo_lbrc {
-            timeout-ms = <25>;
-            key-positions = <19 27>;
-            layers = <0 1 2 4>;
-            bindings = <&kp LBRC>;
         };
 
         
