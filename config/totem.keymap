@@ -195,13 +195,13 @@
 
         combo_quote_left {
             timeout-ms = <25>;
-            key-positions = <7 18>;
+            key-positions = <7 16>;
 	    layers = <0 1 2 4>;
             bindings = <&curlquol>;
         };
         combo_quote_right {
             timeout-ms = <25>;
-            key-positions = <16 7>;
+            key-positions = <7 18>;
 	    layers = <0 1 2 4>;
             bindings = <&curlquor>;
         };
@@ -681,13 +681,13 @@
         curlquol: curly_quote_left {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp LS(LA(RBKT))>, <&kp LS(LA(LBKT))>;
+            bindings = <&kp LA(RBKT)>, <&kp LA(LBKT)>;
             mods = <MOD_LSFT>;
         };
         curlquor: curly_quote_right {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp LA(RBKT)>, <&kp LA(LBKT)>;
+            bindings = <&kp LS(LA(RBKT))>, <&kp LS(LA(LBKT))>;
             mods = <MOD_LSFT>;
         };
     };
