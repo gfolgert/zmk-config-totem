@@ -681,13 +681,13 @@
         curlquol: curly_quote_left {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp LA(RBKT)>, <&kp LA(LBKT)>;
+            bindings = <&kp LS(LA(RBKT))>, <&kp LS(LA(LBKT))>;
             mods = <MOD_LSFT>;
         };
         curlquor: curly_quote_right {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp LS(LA(RBKT))>, <&kp LS(LA(LBKT))>;
+            bindings = <&kp LA(RBKT)>, <&kp LA(LBKT)>;
             mods = <MOD_LSFT>;
         };
     };
