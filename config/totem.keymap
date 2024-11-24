@@ -771,25 +771,25 @@
                 &kp LG(Q)    &kp LG(W)  &kp LG(F)  &kp LG(P)  &kp LG(B)                  &none  &kp N7  &kp N8  &kp N9  &none 
                 &lt 5 LG(A)  &kp LG(R)  &kp LG(S)  &kp LG(T)  &kp LG(G)                  &none  &kp N4  &kp N5  &kp N6  &kp DOT
          &none  &kp LG(Z)    &kp LG(X)  &kp LG(C)  &kp LG(D)  &kp LG(V)                  &none  &kp N1  &kp N2  &kp N3  &none    &none
-                                                 &none      &trans     &trans  &trans  &lt 4 N0    &none
+                                                   &none      &trans     &trans  &trans  &lt 4 N0    &none
             >;
         };
         
         media_layer {
             bindings = <
-                &none  &none  &none  &none  &none                 &none  &kp C_PREV      &kp C_VOL_UP  &kp C_NEXT  &none
-                &none  &none  &none  &none  &none                 &none  &kp C_PP        &kp C_VOL_DN  &none       &none
-         &none  &none  &none  &none  &none  &none                 &none  &studio_unlock  &kp C_MUTE    &bt BT_CLR  &none   &none
-                                     &none  &none  &trans  &none  &mo 5  &none
+                &kp TILDE          &kp HASH   &kp EQUAL  &kp ASTRK  &kp CARET                 &none  &kp C_PREV      &kp C_VOL_UP  &kp C_NEXT  &none
+                &kp LS(LA(MINUS))  &kp DLLR   &kp MINUS  &kp PLUS   &kp PIPE                  &none  &kp C_PP        &kp C_VOL_DN  &none       &none
+         &none  &kp LA(MINUS)      &kp PRCNT  &kp UNDER  &kp SLASH  &kp BSLH                  &none  &studio_unlock  &kp C_MUTE    &bt BT_CLR  &none   &none
+                                  	                 &none      &none      &trans  &none  &mo 5  &none
             >;
         };
 
         arrows_layer {
             bindings = <
-                &none  &none  &none  &none  &none                 &kp PG_UP  &kp HOME      &kp UP         &kp END    &none 
-                &none  &none  &none  &none  &none                 &kp PG_DN  &kp LEFT      &kp DOWN       &kp RIGHT  &kp DEL
-         &none  &none  &none  &none  &none  &none                 &kp SPACE  &kp LA(LEFT)  &kp LA(RIGHT)  &kp CAPS   &none   &none 
-                                     &none  &none  &trans  &mo 5  &none  &none
+                &none     &kp SQT    &kp DQT    &kp AT_SIGN  &kp GRAVE                   &kp PG_UP  &kp HOME      &kp UP         &kp END    &none 
+                &kp AMPS  &kp QMARK  &kp EXCL   &kp KP_LPAR  &kp KP_RPAR                 &kp PG_DN  &kp LEFT      &kp DOWN       &kp RIGHT  &kp DEL
+         &none  &none     &kp SEMI   &kp COLON  &kp LBKT     &kp RBKT                    &kp SPACE  &kp LA(LEFT)  &kp LA(RIGHT)  &kp CAPS   &none   &none 
+                                                &none        &none        &trans  &mo 5  &none      &none
             >;
         };
         
@@ -798,7 +798,7 @@
                 &none  &none  &none  &none  &none                 &kp F12  &kp F7  &kp F8  &kp F9  &none
                 &none  &none  &none  &none  &none                 &kp F11  &kp F4  &kp F5  &kp F6  &none
          &none  &none  &none  &none  &none  &none                 &kp F10  &kp F1  &kp F2  &kp F3  &none   &none
-                                     &none  &none  &trans  &none  &none  &none
+                                     &none  &none  &trans  &none  &none    &none
             >;
         };
 
