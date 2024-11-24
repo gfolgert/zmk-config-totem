@@ -687,7 +687,7 @@
         curlquor: curly_quote_right {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp LS(LA(RBKT))>, <&kp LS(LA(LBKT))>;
+            bindings = <&kp LA(LS(RBKT))>, <&kp LA(LS(LBKT))>;
             mods = <MOD_LSFT>;
         };
     };
