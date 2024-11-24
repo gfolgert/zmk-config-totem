@@ -196,14 +196,26 @@
         combo_quote_left {
             timeout-ms = <25>;
             key-positions = <7 16>;
-	    layers = <0 1 2 4>;
-            bindings = <&curlquol>;
+	    layers = <0>;
+            bindings = <&kp LA(RBKT)>;
         };
         combo_quote_right {
             timeout-ms = <25>;
             key-positions = <7 18>;
-	    layers = <0 1 2 4>;
-            bindings = <&curlquor>;
+	    layers = <0>;
+            bindings = <&kp LS(LA(RBKT))>;
+        };
+        combo_quote_left {
+            timeout-ms = <25>;
+            key-positions = <7 16>;
+	    layers = <1>;
+            bindings = <&kp LS(LA(RBKT))>;
+        };
+        combo_quote_right {
+            timeout-ms = <25>;
+            key-positions = <7 18>;
+	    layers = <1>;
+            bindings = <&kp LS(LA(LBKT))>;
         };
 
         combo_semicolon {
@@ -672,24 +684,6 @@
             bindings = <&kp LS(Z)>;
         };
 
-    };
-};
-
-
-/ {
-    behaviors {
-        curlquol: curly_quote_left {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp LA(RBKT)>, <&kp LA(LBKT)>;
-            mods = <MOD_LSFT>;
-        };
-        curlquor: curly_quote_right {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp LA(LS(RBKT))>, <&kp LA(LS(LBKT))>;
-            mods = <MOD_LSFT>;
-        };
     };
 };
 
