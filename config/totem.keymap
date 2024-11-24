@@ -188,6 +188,7 @@
             bindings = <&kp LS(SQT)>;
         };
 
+
 	//Symbols
         combo_semicolon {
             timeout-ms = <25>;
