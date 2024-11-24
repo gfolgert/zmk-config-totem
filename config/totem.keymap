@@ -213,9 +213,15 @@
         };
         combo_quote_double_right {
             timeout-ms = <25>;
-            key-positions = <7 18>;
+            key-positions = <7 17>;
 	    layers = <1>;
             bindings = <&kp LS(LA(LBKT))>;
+        };
+        combo_quote_regular {
+            timeout-ms = <25>;
+            key-positions = <7 18>;
+	    layers = <1>;
+            bindings = <&kp SQT>;
         };
 
         combo_semicolon {
