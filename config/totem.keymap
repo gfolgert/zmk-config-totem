@@ -171,12 +171,6 @@
  	    layers = <0>;
             bindings = <&kp SLCK>;
         };
-        combo_pause {
-            timeout-ms = <25>;
-            key-positions = <16 17 19>;
- 	    layers = <0>;
-            bindings = <&kp PAUSE_BREAK>;
-        };
      
    
         //Symbols
@@ -253,6 +247,18 @@
             key-positions = <16 18>;
 	    layers = <0 1 2 4>;
             bindings = <&kp PLUS>;
+        };
+        combo_endash {
+            timeout-ms = <25>;
+            key-positions = <16 17 19>;
+ 	    layers = <0>;
+            bindings = <&kp LA(MINUS)>;
+        };
+        combo_emdash {
+            timeout-ms = <25>;
+            key-positions = <16 17 29>;
+ 	    layers = <0>;
+            bindings = <&kp LS(LA(MINUS))>;
         };
         combo_underscore {
             timeout-ms = <50>;
