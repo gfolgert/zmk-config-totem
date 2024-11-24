@@ -173,7 +173,7 @@
         };
      
    
-        //Symbols
+        //Quotes
         combo_quote_curly_single_left {
             timeout-ms = <25>;
             key-positions = <7 16>;
@@ -211,6 +211,7 @@
             bindings = <&kp LS(SQT)>;
         };
 
+	//Symbols
         combo_semicolon {
             timeout-ms = <25>;
             key-positions = <28 29>;
