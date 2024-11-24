@@ -787,7 +787,7 @@
         arrows_layer {
             bindings = <
                 &none     &kp SQT    &kp DQT    &kp AT_SIGN  &kp GRAVE                   &kp PG_UP  &kp HOME      &kp UP         &kp END    &none 
-                &kp AMPS  &kp QMARK  &kp EXCL   &kp KP_LPAR  &kp KP_RPAR                 &kp PG_DN  &kp LEFT      &kp DOWN       &kp RIGHT  &kp DEL
+                &kp AMPS  &kp QMARK  &kp EXCL   &kp LPAR     &kp RPAR                    &kp PG_DN  &kp LEFT      &kp DOWN       &kp RIGHT  &kp DEL
          &none  &none     &kp SEMI   &kp COLON  &kp LBKT     &kp RBKT                    &kp SPACE  &kp LA(LEFT)  &kp LA(RIGHT)  &kp CAPS   &none   &none 
                                                 &none        &none        &trans  &mo 5  &none      &none
             >;
