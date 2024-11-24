@@ -193,25 +193,25 @@
 //            bindings = <&kp DQT>;
 //        };
 
-        combo_quote_left {
+        combo_quote_single_left {
             timeout-ms = <25>;
             key-positions = <7 16>;
 	    layers = <0>;
             bindings = <&kp LA(RBKT)>;
         };
-        combo_quote_right {
+        combo_quote_single_right {
             timeout-ms = <25>;
             key-positions = <7 18>;
 	    layers = <0>;
             bindings = <&kp LS(LA(RBKT))>;
         };
-        combo_quote_left {
+        combo_quote_double_left {
             timeout-ms = <25>;
             key-positions = <7 16>;
 	    layers = <1>;
             bindings = <&kp LA(LBKT)>;
         };
-        combo_quote_right {
+        combo_quote_double_right {
             timeout-ms = <25>;
             key-positions = <7 18>;
 	    layers = <1>;
