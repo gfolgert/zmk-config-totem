@@ -209,7 +209,7 @@
             timeout-ms = <25>;
             key-positions = <7 16>;
 	    layers = <1>;
-            bindings = <&kp LS(LA(RBKT))>;
+            bindings = <&kp LA(LBKT)>;
         };
         combo_quote_right {
             timeout-ms = <25>;
