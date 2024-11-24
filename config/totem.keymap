@@ -147,31 +147,8 @@
 	    layers = <0 1 2 4>;
             bindings = <&kp ESC>;
         };
-        combo_ins {
-            timeout-ms = <25>;
-            key-positions = <16 7 19>;
-	    layers = <0>;
-            bindings = <&kp INS>;
-        };
-        combo_numlock {
-            timeout-ms = <25>;
-            key-positions = <6 8 19>;
- 	    layers = <0>;
-            bindings = <&kp KP_NUM>;
-        };
-        combo_printscreen {
-            timeout-ms = <25>;
-            key-positions = <7 19 27>;
- 	    layers = <0>;
-            bindings = <&kp PSCRN>;
-        };
-        combo_scrolllock {
-            timeout-ms = <25>;
-            key-positions = <15 19>;
- 	    layers = <0>;
-            bindings = <&kp SLCK>;
-        };
-     
+
+# No pause/break, scrolllock, printscreen, numlock, insert     
    
         //Quotes
         combo_quote_curly_single_left {
