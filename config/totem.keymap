@@ -44,6 +44,7 @@
     combos {
         compatible = "zmk,combos";
 
+
         //Modifiers – Left Hand
         combo_lgui {
             timeout-ms = <25>;
@@ -149,7 +150,8 @@
         };
 
 # No pause/break, scrolllock, printscreen, numlock, insert     
-   
+
+
         //Quotes
         combo_quote_curly_single_left {
             timeout-ms = <25>;
@@ -311,6 +313,7 @@
             bindings = <&kp AMPERSAND>;
         };
 
+
         //Parentheses
         combo_lpar {
             timeout-ms = <25>;
@@ -415,6 +418,7 @@
             bindings = <&thumbsup>;
         };
 
+
         //Misc
         combo_altbackspace2 {
             timeout-ms = <25>;
@@ -440,6 +444,7 @@
             layers = <0>;
             bindings = <&bootloader>;
         };
+
 
         //Misc – Left
         combo_screenshot_file {
