@@ -149,7 +149,7 @@
             bindings = <&kp ESC>;
         };
 
-# No pause/break, scrolllock, printscreen, numlock, insert     
+// No pause/break, scrolllock, printscreen, numlock, insert     
 
 
         //Quotes
