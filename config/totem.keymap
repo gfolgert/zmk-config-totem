@@ -537,7 +537,7 @@
             #binding-cells = <0>;
             bindings
                 = <&macro_tap_time 1>
-                , <&macro_tap &kp COLON &kp PLUS &kp 1 &kp COLON>
+                , <&macro_tap &kp COLON &kp PLUS &kp N1 &kp COLON>
                 ;
         };
 
